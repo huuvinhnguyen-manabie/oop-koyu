@@ -1,0 +1,83 @@
+<template>
+    <div class="duplicate_result_container slds-is-relative">
+        <template if:true={isLoading}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+        <template if:true={isDuplicateDetectedStep}>
+            <div>                           
+                <c-inquiry-conversion-duplicated-contacts
+                    target-inquiry={duplicatedResult.inquiry}
+                    duplicated-students={duplicatedResult.duplicatedStudents}
+                    duplicated-parents={duplicatedResult.duplicatedParents}
+                    selected-duplicated-student-id={duplicatedResult.selectedDuplicatedStudentId}
+                    selected-duplicated-parent-id={duplicatedResult.selectedDuplicatedParentId}
+                    onselectduplicatedstudent={handleSelectedDuplicatedStudent}
+                    onselectduplicatedparent={handleSelectedDuplicatedParent}
+                ></c-inquiry-conversion-duplicated-contacts>
+            </div>
+            
+        </template>
+        <template if:true={isLinkConfirmationStep}>
+            <h1>{label.conversion.message.confirmation}</h1>
+        </template>
+        <div class="fake_margin"></div>
+        
+    </div>
+    <template if:true={shouldShowActionBar}>
+        <footer class="slds-modal__footer slds-grid slds-grid_align-center footer__override">
+            <div class="icon-container slds-grid_vertical-align-center" if:true={isErrorModalOpen}>
+                <lightning-icon icon-name="utility:error" variant="error" size="small" onclick={openErrorModal}>
+                </lightning-icon>
+                <section
+                    aria-describedby="dialog-error"
+                    aria-labelledby="dialog-error"
+                    class="slds-popover slds-popover_error slds-nubbin_bottom"
+                    role="dialog"
+                    if:true={isErrorModalOpen}
+                >
+                    <button
+                        class="slds-button slds-button_icon slds-button_icon-small slds-float_right slds-popover__close slds-button_icon-inverse"
+                        title="Close dialog"
+                        onclick={closeErrorModal}
+                    >
+                        <lightning-icon icon-name="utility:close" variant="inverse" size="x-small">
+                        </lightning-icon>
+                    </button>
+                    <header class="slds-popover__header">
+                        <div class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-utility-error">
+                                    <lightning-icon icon-name="utility:error" variant="inverse" size="small">
+                                    </lightning-icon>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2
+                                    class="slds-truncate slds-text-heading_medium"
+                                    id="dialog-heading-id-1"
+                                    title={label.conversion.error.requiredFieldError}
+                                >
+                                    {label.conversion.error.requiredFieldError}
+                                </h2>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="slds-popover__body" id="dialog-error">
+                        <p>{label.conversion.error.reviewErrors}</p>
+                        <ul class="slds-list_dotted">
+                            <li>{errorMessage}</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <lightning-button name={secondaryActionLabel} label={secondaryActionLabel} onclick={handleSecondaryActionClick}>
+            </lightning-button>
+            <lightning-button
+                label={primaryActionLabel}
+                variant="brand"
+                onclick={handlePrimaryActionClick}
+                class="slds-m-left_x-small"
+            ></lightning-button>
+        </footer>
+    </template>
+</template>

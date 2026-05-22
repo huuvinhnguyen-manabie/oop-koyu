@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Academic_Year</fullName>
+        <categories>lesson</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Academic Year 2</shortDescription>
+        <value>Academic Year</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Contract_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Contract Msg</shortDescription>
+        <value>I confirm that I have received the contract documents</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Contract_Receipt</fullName>
+        <categories>Order</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Contract Receipt</shortDescription>
+        <value>Confirm Contract Receipt</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Contract_Success_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Contract Success Msg</shortDescription>
+        <value>The Contract receipt confirmation process has been successfully completed.</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Order</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Order</shortDescription>
+        <value>Confirm Order</value>
+    </labels>
+    <labels>
+        <fullName>Continue_Button</fullName>
+        <categories>Online Enrollment Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue Button</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>Contract_already_confirmed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract already confirmed</shortDescription>
+        <value>Contract already confirmed</value>
+    </labels>
+    <labels>
+        <fullName>Date_of_Receipt</fullName>
+        <language>ja</language>
+        <protected>false</protected>
+        <shortDescription>Date of Receipt</shortDescription>
+        <value>Date of Receipt</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Address_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Address Information</shortDescription>
+        <value>Address Information</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Contact_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Contact Information</shortDescription>
+        <value>Contact Information</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Back_Action</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Back Action</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Cancel_Action</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Cancel Action</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Confirm_Action</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Confirm Action</shortDescription>
+        <value>Confirm</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Confirmation</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Confirmation</shortDescription>
+        <value>Are you sure you want to convert this inquiry? This action cannot be undone.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Convert_Action</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Convert Action</shortDescription>
+        <value>Convert</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Create_New_Parent</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Create New Parent</shortDescription>
+        <value>Create new parent</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Create_New_Student</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Create New Student</shortDescription>
+        <value>Create new student</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Duplicated_Parents</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Duplicated Parents</shortDescription>
+        <value>Duplicated Parents:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Duplicated_Students</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Duplicated Students</shortDescription>
+        <value>Duplicated Students:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Email</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Email</shortDescription>
+        <value>Email:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Grade</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Grade</shortDescription>
+        <value>Grade:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Hit_A_Snag</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Hit A Snag</shortDescription>
+        <value>We hit a snag</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Link_Success_Message</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Link Success Message</shortDescription>
+        <value>Inquiry successfully linked to student: {{STUDENT_NAME}}</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Main_Location</fullName>
+        <categories>inquiry_conversion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Main Location</shortDescription>
+        <value>Main Location</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Next_Action</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Next Action</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Parent_Username_Resolved</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Parent Username Resolved</shortDescription>
+        <value>The submitted email {ORIGINAL_USERNAME} already exists as a username. A new parent was created with the username {RESOLVED_USERNAME}.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Phone_Number</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Phone Number</shortDescription>
+        <value>Phone Number:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Phonetic_Name</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Phonetic Name</shortDescription>
+        <value>Phonetic Name:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Postal_Code</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Postal Code</shortDescription>
+        <value>Postal Code:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Review_Errors</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Review Errors</shortDescription>
+        <value>Review the errors on this page.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Conversion_Success_Message</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Conversion Success Message</shortDescription>
+        <value>New student record created from inquiry</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Details</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Details</shortDescription>
+        <value>Inquiry Details</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_Already_Converted</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error Already Converted</shortDescription>
+        <value>This inquiry has already been converted. Cannot convert the same inquiry multiple times.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_Manual_Convert</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error Manual Convert</shortDescription>
+        <value>Please use the Convert action to link students and parents to this inquiry</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_Missing_Location_Preference</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error Missing Location Preference</shortDescription>
+        <value>Location Preference is required to convert this inquiry. Please select a location before proceeding.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_Missing_Parent_Email</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error Missing Parent Email</shortDescription>
+        <value>Cannot create parent record: Email address is required to generate the parent username. Please provide parent email in the inquiry.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_Missing_Required_Fields</fullName>
+        <categories>inquiry_conversion</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error Missing Required Fields</shortDescription>
+        <value>Required fields are missing for Inquiry Conversion. Please check the guideline before converting the inquiry again.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_Missing_Student_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error Missing Student Information</shortDescription>
+        <value>Student First Name and Last Name are required to create a student record.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Error_System_Errors</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Error System Errors</shortDescription>
+        <value>Unable to convert inquiry due to a system error. Please try again later or contact system administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_All_Fields_Fulfilled</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline All Fields Fulfilled</shortDescription>
+        <value>All required fields are fulfilled. The inquiry is ready to convert.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Description</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Description</shortDescription>
+        <value>To convert this inquiry, please ensure the following information is completed:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Subject_Parent</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Subject Parent</shortDescription>
+        <value>Parent (Optional):</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Subject_Parent_Description</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Subject Parent Description</shortDescription>
+        <value>If parent information is provided, please ensure the following fields are completed:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Subject_Parent_Important</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Subject Parent Important</shortDescription>
+        <value>Important:</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Subject_Parent_Important_Note</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Subject Parent Important Note</shortDescription>
+        <value>The parent’s email address is used as the username in the system. The email address must be unique and cannot be duplicated within the system. If the email address is already used as a username, the inquiry conversion will fail.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Subject_Student</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Subject Student</shortDescription>
+        <value>Student (Required):</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Subject_Student_Note</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Subject Student Note</shortDescription>
+        <value>All required fields for Student 1 must be filled before you can convert the inquiry. Please review and complete any missing information as needed.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Guideline_Title</fullName>
+        <categories>inquiry_guideline</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Guideline Title</shortDescription>
+        <value>Required Fields for Inquiry Conversion</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Management</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Management</shortDescription>
+        <value>Inquiry Management</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Parent_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Parent Information</shortDescription>
+        <value>Parent Information</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Student_2_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Student 2 Information</shortDescription>
+        <value>Student 2 Information</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Student_3_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Student 3 Information</shortDescription>
+        <value>Student 3 Information</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_Student_Information</fullName>
+        <categories>inquiry</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry Student Information</shortDescription>
+        <value>Student Information</value>
+    </labels>
+    <labels>
+        <fullName>Learning_Center_Enrollment</fullName>
+        <categories>Online Enrollment Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Learning Center Enrollment</shortDescription>
+        <value>Learning Center Enrollment</value>
+    </labels>
+    <labels>
+        <fullName>Msg_Fill_Info_Student_Parent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Msg Fill Info Student Parent</shortDescription>
+        <value>Please complete the required information below</value>
+    </labels>
+    <labels>
+        <fullName>Msg_Send_Enrollment_Mail_To_Parents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Msg Send Enrollment Mail To Parents</shortDescription>
+        <value>Enrollment link sent to the parents</value>
+    </labels>
+    <labels>
+        <fullName>No_Parent_To_Send_Email_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Parent To Send Email Msg</shortDescription>
+        <value>No parent is registered for this student. Please register a parent before sending</value>
+    </labels>
+    <labels>
+        <fullName>Order_Confirmation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Confirmation</shortDescription>
+        <value>Order Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Summary</shortDescription>
+        <value>Order Summary</value>
+    </labels>
+    <labels>
+        <fullName>Parent_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Parent Information</shortDescription>
+        <value>Parent Information</value>
+    </labels>
+    <labels>
+        <fullName>Personal_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Personal Information</shortDescription>
+        <value>Personal Information</value>
+    </labels>
+    <labels>
+        <fullName>Please_confirm_the_details_below</fullName>
+        <categories>order</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please confirm the details below</shortDescription>
+        <value>Please confirm the details below</value>
+    </labels>
+    <labels>
+        <fullName>Please_select_the_center_for_enrollment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please select the center for enrollment</shortDescription>
+        <value>Please select the center for enrollment</value>
+    </labels>
+    <labels>
+        <fullName>Product_Start_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Start Date</shortDescription>
+        <value>Product Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Referral_System</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Referral System</shortDescription>
+        <value>Referral System</value>
+    </labels>
+    <labels>
+        <fullName>Resume_Date_Before_LOA_Start_Date</fullName>
+        <categories>Order</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Resume_Date_Before_LOA_Start_Date</shortDescription>
+        <value>You cannot create a resume order earlier than the LOA start date</value>
+    </labels>
+    <labels>
+        <fullName>Review_Term_Check_Box</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Review And accept T &amp; C</shortDescription>
+        <value>Please review and accept our terms</value>
+    </labels>
+    <labels>
+        <fullName>Select_Center</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Center</shortDescription>
+        <value>Select Center</value>
+    </labels>
+    <labels>
+        <fullName>Send_Email_Button</fullName>
+        <categories>Enrollment Online Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Email Button</shortDescription>
+        <value>Send Email</value>
+    </labels>
+    <labels>
+        <fullName>StudentAllSubjects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentAllSubjects</shortDescription>
+        <value>All Subjects</value>
+    </labels>
+    <labels>
+        <fullName>StudentAverageScore</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentAverageScore</shortDescription>
+        <value>Average Score</value>
+    </labels>
+    <labels>
+        <fullName>StudentBarChart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentBarChart</shortDescription>
+        <value>Chart</value>
+    </labels>
+    <labels>
+        <fullName>StudentDeviation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentDeviation</shortDescription>
+        <value>Deviation</value>
+    </labels>
+    <labels>
+        <fullName>StudentExam</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentExam</shortDescription>
+        <value>Exam</value>
+    </labels>
+    <labels>
+        <fullName>StudentExamScoreChartTable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentExamScoreChartTable</shortDescription>
+        <value>Student Exam Result</value>
+    </labels>
+    <labels>
+        <fullName>StudentExamScoreTableTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentExamScoreTableTitle</shortDescription>
+        <value>Score ・ SS ・ Average Score</value>
+    </labels>
+    <labels>
+        <fullName>StudentHighestScore</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentHighestScore</shortDescription>
+        <value>Highest Score</value>
+    </labels>
+    <labels>
+        <fullName>StudentMainSubjects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentMainSubjects</shortDescription>
+        <value>Main Subjects</value>
+    </labels>
+    <labels>
+        <fullName>StudentRanking</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentRanking</shortDescription>
+        <value>Ranking</value>
+    </labels>
+    <labels>
+        <fullName>StudentScore</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentScore</shortDescription>
+        <value>Score</value>
+    </labels>
+    <labels>
+        <fullName>StudentSubjectScoreChart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StudentSubjectScoreChart</shortDescription>
+        <value>Subject Score Chart</value>
+    </labels>
+    <labels>
+        <fullName>Student_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Student Address</shortDescription>
+        <value>Student Address</value>
+    </labels>
+    <labels>
+        <fullName>Student_Contact_Detail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Student Contact Detail</shortDescription>
+        <value>Student Contact Detail</value>
+    </labels>
+    <labels>
+        <fullName>Student_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Student Information</shortDescription>
+        <value>Student Information</value>
+    </labels>
+    <labels>
+        <fullName>Student_Profile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Student Profile</shortDescription>
+        <value>Student Profile</value>
+    </labels>
+    <labels>
+        <fullName>Submission_Completed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submission Completed</shortDescription>
+        <value>Submission Completed</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Table_Label_CBT</fullName>
+        <categories>Invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table_Label_CBT</shortDescription>
+        <value>Credit Balance Transactions</value>
+    </labels>
+    <labels>
+        <fullName>Terms_Conditions</fullName>
+        <categories>Online Enrollment Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Terms &amp; Conditions</shortDescription>
+        <value>Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>Thank_Msg_Complete_Order_Form_Submission</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Thank Msg Complete Order Form Submission</shortDescription>
+        <value>Thank you! Your order is complete.
+Your order details have been sent to your email.</value>
+    </labels>
+    <labels>
+        <fullName>Validate_Phone_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validate Phone Number</shortDescription>
+        <value>Phone Number should has 7 - 20 characters, and should has numeric characters</value>
+    </labels>
+    <labels>
+        <fullName>Validate_Postal_Code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validate Postal Code</shortDescription>
+        <value>Postal Code must be numeric characters.</value>
+    </labels>
+    <labels>
+        <fullName>You_have_already_confirmed_receipt_of_the_contract_documents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>You have already confirmed receipt of the contract documents.</shortDescription>
+        <value>You have already confirmed receipt of the contract documents.</value>
+    </labels>
+    <labels>
+        <fullName>agree_policy</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>agree policy</shortDescription>
+        <value>I agree to the Privacy Policy</value>
+    </labels>
+    <labels>
+        <fullName>agree_t_c</fullName>
+        <categories>Online Enrollment Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>agree t &amp; c</shortDescription>
+        <value>I agree to the Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>test_lable_header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>test lable header</shortDescription>
+        <value>test lable header</value>
+    </labels>
+</CustomLabels>

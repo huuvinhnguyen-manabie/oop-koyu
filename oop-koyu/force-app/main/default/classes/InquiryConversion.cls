@@ -46,8 +46,10 @@ public without sharing class InquiryConversion {
             Contact parentToCreate = InquiryConversionHandler.convertInquiryToParentContact(inquiry);
             
             List<Contact> contactsToCreate = new List<Contact>{studentToCreate};
-                
+
+            String originalParentUsername;
             if (parentToCreate != null) {
+                originalParentUsername = parentToCreate.MANAERP__Username__c;
                 InquiryUsernameResolver.resolveUniqueUsername(parentToCreate);
                 contactsToCreate.add(parentToCreate);
             }
@@ -66,6 +68,11 @@ public without sharing class InquiryConversion {
             convertResult.linkedStudent = linkResult.linkedStudent;
             convertResult.linkedParentId = linkResult.linkedParentId;
             convertResult.linkedParent = linkResult.linkedParent;
+
+            if (originalParentUsername != null && originalParentUsername != parentToCreate.MANAERP__Username__c) {
+                convertResult.originalParentUsername = originalParentUsername;
+                convertResult.resolvedParentUsername = parentToCreate.MANAERP__Username__c;
+            }
             
             return convertResult;
             
@@ -103,9 +110,14 @@ public without sharing class InquiryConversion {
             if (parentId == null) {
                 Contact parentToCreate = InquiryConversionHandler.convertInquiryToParentContact(inquiry);
                 if (parentToCreate != null) {
+                    String originalParentUsername = parentToCreate.MANAERP__Username__c;
                     InquiryUsernameResolver.resolveUniqueUsername(parentToCreate);
                     insert parentToCreate;
-                    parentId = parentToCreate.Id;   
+                    parentId = parentToCreate.Id;
+                    if (originalParentUsername != null && originalParentUsername != parentToCreate.MANAERP__Username__c) {
+                        result.originalParentUsername = originalParentUsername;
+                        result.resolvedParentUsername = parentToCreate.MANAERP__Username__c;
+                    }
                 }
             }
             

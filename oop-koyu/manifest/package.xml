@@ -2,11 +2,27 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>InquiryConversion</members>
+		<members>InquiryConversionController</members>
+		<members>InquiryConversionDuplicatedTest</members>
+		<members>InquiryConversionResult</members>
 		<members>InquiryConversionTest</members>
 		<members>InquiryUsernameResolver</members>
 		<members>InquiryUsernameResolverTest</members>
-		<members>InquiryConversionDuplicatedTest</members>
+		<members>LinkInquiryResult</members>
 		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomLabels</name>
+	</types>
+	<types>
+		<members>inquiryConversion</members>
+		<members>inquiryTranslationMixin</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Translations</name>
 	</types>
 	<version>67.0</version>
 </Package>
